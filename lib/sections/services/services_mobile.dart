@@ -10,10 +10,7 @@ class ServiceMobile extends StatelessWidget {
     return Column(
       children: [
         const CustomSectionHeading(
-          text: '\nWhat I can do?',
-        ),
-        const CustomSectionSubHeading(
-          text: 'I may not be perfect but surely I\'m of some use :)\n\n',
+          text: 'What I am working on?',
         ),
         Space.y!,
         CarouselSlider.builder(

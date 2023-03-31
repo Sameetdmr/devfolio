@@ -15,10 +15,7 @@ class ContactDesktop extends StatelessWidget {
       child: Column(
         children: [
           const CustomSectionHeading(
-            text: "\nGet in Touch",
-          ),
-          const CustomSectionSubHeading(
-            text: "Let's build something together :)\n\n",
+            text: "Get in Touch",
           ),
           Space.y!,
           Wrap(

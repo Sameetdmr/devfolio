@@ -13,13 +13,10 @@ class ContactMobileTab extends StatelessWidget {
     return Column(
       children: [
         const CustomSectionHeading(
-          text: "\nGet in Touch",
-        ),
-        const CustomSectionSubHeading(
-          text: "Let's build something together :)\n\n",
+          text: "Get in Touch",
         ),
         CarouselSlider.builder(
-          itemCount: 3,
+          itemCount: 2,
           itemBuilder: (BuildContext context, int itemIndex, int i) => Padding(
             padding: const EdgeInsets.symmetric(vertical: 10.0),
             child: ProjectCard(

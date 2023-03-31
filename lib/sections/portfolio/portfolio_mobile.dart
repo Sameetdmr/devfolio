@@ -1,11 +1,4 @@
-import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
-import 'package:folio/configs/configs.dart';
-import 'package:folio/constants.dart';
-import 'package:folio/utils/project_utils.dart';
-import 'package:folio/utils/utils.dart';
-import 'package:folio/widget/custom_text_heading.dart';
-import 'package:folio/widget/project_card.dart';
 
 class PortfolioMobileTab extends StatelessWidget {
   const PortfolioMobileTab({Key? key}) : super(key: key);
@@ -14,6 +7,7 @@ class PortfolioMobileTab extends StatelessWidget {
   Widget build(BuildContext context) {
     double height = MediaQuery.of(context).size.height;
     return Column(
+        /*
       children: [
         const CustomSectionHeading(
           text: "\nPortfolio",
@@ -55,6 +49,7 @@ class PortfolioMobileTab extends StatelessWidget {
           ),
         )
       ],
-    );
+      */
+        );
   }
 }
