@@ -40,6 +40,9 @@ dependencies:
   # cache
   shared_preferences: ^2.0.6
 
+  # firebase
+  firebase_core: ^2.9.0
+
 
 dev_dependencies:
   flutter_test:
