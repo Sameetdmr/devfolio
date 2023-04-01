@@ -6,7 +6,6 @@ import 'package:folio/widget/custom_text_heading.dart';
 import 'package:universal_html/html.dart' as html;
 import 'package:flutter/material.dart';
 import 'package:folio/constants.dart';
-import 'package:folio/widget/about_me_data.dart';
 import 'package:folio/widget/tech_widget.dart';
 
 class AboutTab extends StatelessWidget {
@@ -24,12 +23,7 @@ class AboutTab extends StatelessWidget {
         children: [
           const Center(
             child: CustomSectionHeading(
-              text: '\nAbout Me',
-            ),
-          ),
-          const Center(
-            child: CustomSectionSubHeading(
-              text: 'Get to know me :)',
+              text: 'About Me',
             ),
           ),
           Space.y1!,
@@ -70,12 +64,6 @@ class AboutTab extends StatelessWidget {
             thickness: AppDimensions.normalize(0.5),
           ),
           Space.y!,
-          Text(
-            'Technologies I have worked with:',
-            style: AppText.l1!.copyWith(
-              color: AppTheme.c!.primary,
-            ),
-          ),
           Row(
             children: kTools
                 .map(
@@ -89,40 +77,6 @@ class AboutTab extends StatelessWidget {
             thickness: AppDimensions.normalize(0.5),
           ),
           Space.y!,
-          Row(
-            children: [
-              Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: const [
-                  AboutMeData(
-                    data: "Name",
-                    information: "Muhammad Hamza",
-                  ),
-                  AboutMeData(
-                    data: "Age",
-                    information: "24",
-                  ),
-                ],
-              ),
-              SizedBox(
-                width: width > 710 ? width * 0.2 : width * 0.05,
-              ),
-              Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: const [
-                  AboutMeData(
-                    data: "Email",
-                    information: "hamza.6.shakeel@gmail.com",
-                  ),
-                  AboutMeData(
-                    data: "From",
-                    information: "Attock, PK",
-                  ),
-                ],
-              ),
-            ],
-          ),
-          Space.y1!,
           Row(
             children: [
               SizedBox(

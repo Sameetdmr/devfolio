@@ -5,7 +5,6 @@ class NavBarUtils {
     'HOME',
     'ABOUT',
     'SERVICES',
-    'PROJECTS',
     'CONTACT',
   ];
 
@@ -13,7 +12,6 @@ class NavBarUtils {
     Icons.home,
     Icons.person,
     Icons.work,
-    Icons.build,
     Icons.settings,
     Icons.contact_page,
   ];
